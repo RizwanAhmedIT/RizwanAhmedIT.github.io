@@ -1,0 +1,14 @@
+1. cdn.js
+go to the first link 
+type [font aw] and copy th first link of font-awesome 
+and past head section in link tag       
+
+2. font 
+> go to google font
+> clike on first link 
+> search font [clicker script] select style
+> next font [poppins] Extra-light 200,light 300,regular 400,medium 500,Semi-bold 600 select style
+> copy the @import link 
+> past on CSS top 
+> in  import link after 600 add ,700
+8356988523
