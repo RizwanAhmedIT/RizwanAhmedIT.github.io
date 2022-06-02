@@ -720,6 +720,24 @@ h3.my-profession {
     padding: 0 50px;
 }
 
+/*scroller top*/
+.top {
+    display: grid;
+    place-items: center;
+    position: fixed;
+    right: 0;
+    bottom: 20px;
+    right: 20px;
+    place-self: end;
+    margin-top: calc(100vh+50px);
+    text-decoration: none;
+    width: 80px;
+    height: 40px;
+    font-family: 'Poppins' sans-serif;
+    color: #fff;
+    background: var(--skin-color);
+    border-radius: 6.5px;
+}
 @media (max-width:1199px) {
     .aside{
         left: -270px;
