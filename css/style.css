@@ -301,6 +301,11 @@ h3.my-profession {
 .typing {
     color: var(--skin-color);
 }
+/* Cursor */
+.txt-type > .txt {
+    border-right: 0.2rem solid var(--skin-color);
+  }
+
 
 .home-info p {
     margin-bottom: 70px;
