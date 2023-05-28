@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rizwan Ahmed</title>
-    <link rel="shortcut icon" href="images/Logo.png">
+    <link rel="shortcut icon" href="images/Logo.png" />
     <!--===== CSS Flies =====-->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/skins/color-1.css" />
+    <!-- CDN -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -16,6 +17,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+      integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <!-- style switcher-->
     <link
       rel="stylesheet"
@@ -56,7 +63,7 @@
     <link rel="stylesheet" href="css/style-switcher.css" />
   </head>
 
-  <body >
+  <body>
     <!--====== Main Container start ======-->
     <div class="main-container">
       <!-- ===== Aside start ===== -->
@@ -96,7 +103,14 @@
                   Hello, my name is <span class="name">Rizwan Ahmed</span>
                 </h3>
                 <h3 class="my-profession">
-                  I'm a <span class="typing"><span class="txt-type" data-wait="300" data-words='["Web Developer","Web Designer","Digital Marketer ","Programar"]'></span></span>
+                  I'm a
+                  <span class="typing"
+                    ><span
+                      class="txt-type"
+                      data-wait="300"
+                      data-words='["Web Developer","Web Designer","Digital Marketer ","Programar"]'
+                    ></span
+                  ></span>
                 </h3>
                 <p>
                   I'm a web Designer with extensive for over 10 year. My
@@ -124,7 +138,16 @@
               <div class="about-content padd-15">
                 <div class="row">
                   <div class="about-text padd-15">
-                    <h3>I'm Rizwan Ahmed and <span>Web Developer</span></h3>
+                    <h3>
+                      I'm Rizwan Ahmed and
+                      <span class="typing"
+                        ><span
+                          class="txt-type_2"
+                          data-wait_2="300"
+                          data-words_2='["Web Developer","Web Designer","Digital Marketer ","Programar"]'
+                        ></span
+                      ></span>
+                    </h3>
                     <p>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Voluptatibus dolore quo, aliquam velit quam similique
@@ -143,7 +166,7 @@
                         <p>Birthday : <span>10 March 2001</span></p>
                       </div>
                       <div class="info-item padd-15">
-                        <p>Age : <span>21</span></p>
+                        <p>Age : <span id="Current_Age"></span></p>
                       </div>
                       <div class="info-item padd-15">
                         <p>Website : <span>www.rizwanahmed.com</span></p>
@@ -639,7 +662,7 @@
         <i class="fas fa-cog fa-spin"></i>
       </div>
       <div class="day-night s-icon">
-        <i class="fas "></i>
+        <i class="fas"></i>
       </div>
       <h4>Theme colors</h4>
       <div class="colors">
@@ -653,5 +676,6 @@
     <!--##### JS files #####-->
     <script src="js/script.js"></script>
     <script src="js/style-switcher.js"></script>
+    <script src="js/jquery.js"></script>
   </body>
 </html>
