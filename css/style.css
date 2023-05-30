@@ -50,8 +50,17 @@ body {
     background: var(--skin-color);
     
  } */
-
 /* scrollbar ends */
+
+ /* progress Bar animation  */
+ .progress-in{
+    animation: progress 6s forwards;
+ }
+ @keyframes progress {
+    0% { width: 0%};
+    100% { width: 100% }
+ }
+/* progress Bar animation Ends  */
 
 .section {
   background: var(--bg-black-900);

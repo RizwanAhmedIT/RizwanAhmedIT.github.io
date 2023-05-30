@@ -95,4 +95,21 @@ let birth_year = 2001;
 let Current_Age = Current_year - birth_year ;
 
 document.getElementById('Current_Age').innerHTML = Current_Age ;
-s
+
+ // progress bar 
+ const load = () => {
+    const progress_in = document.querySelector('.progress-in');
+    const percent = document.querySelector('.skill-percent');
+    var i=0;
+    var x=100;
+    
+    progress_in.style.width = "0%";
+
+      if (progress_in.style.width === '0%'){
+        setInterval(speed,20);
+        
+        let speed =()=>{
+          
+        }
+      }
+ };
