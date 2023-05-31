@@ -1,7 +1,10 @@
 // Show style Scroll top on scroll
 
+document.addEventListener("DOMContentLoaded", ()=>{
+  document.querySelector(".scroller").style.display = "none";
+})
 window.addEventListener("scroll", () => {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 30) {
     document.querySelector(".scroller").style.display = "block";
   }
   else {
@@ -65,26 +68,21 @@ class TypeWriter {
 
 
 // Init On DOM Load
-document.addEventListener('DOMContentLoaded', init);
-
-// Init App
-function init() {
+document.addEventListener('DOMContentLoaded', ()=>{
   const txtElement = document.querySelector('.txt-type');
   const words = JSON.parse(txtElement.getAttribute('data-words'));
   const wait = txtElement.getAttribute('data-wait');
   // Init TypeWriter
   new TypeWriter(txtElement, words, wait);
-}
+})
 
-document.addEventListener('DOMContentLoaded', init2);
-
-function init2() {
+document.addEventListener('DOMContentLoaded', () => {
   const txtElement = document.querySelector('.txt-type_2');
   const words = JSON.parse(txtElement.getAttribute('data-words_2'));
   const wait = txtElement.getAttribute('data-wait_2');
   // Init TypeWriter Function
   new TypeWriter(txtElement, words, wait);
-}
+})
 
 // current Age Calculator
 
